@@ -29,18 +29,19 @@ li:hover{
     margin-top: 20px;
 
 }
+
 .header > h1{
     text-align: end;
     padding-top: 300px;
     color: white;
     font-size: 90px;
     font-weight: bold;
-    padding-right: 100px;
+    padding-right: 150px;
 }
 .header > h6{
     color: white;
     text-align: end;
-    padding-right: 100px;
+    padding-right: 150px;
     text-transform: capitalize;
     font-size: 18px;
     padding-top: 25px;
@@ -48,13 +49,14 @@ li:hover{
 .bgm > p{
     color: white;
     align-items: baseline;
-    margin-left: 75.5%;
+    margin-left: 72%;
     padding-top: 10px;
     word-wrap: break-word;
-    padding-left: 4px;
+    padding-right: 30px;
+   
 }
 .bgm > button{
-    margin-left: 75.5%;
+    margin-left: 72%;
 
     margin-top: 40px;
     padding: 10px 30px;
@@ -283,6 +285,8 @@ input[type=submit]:hover{
     
     padding-left: 20px;
 }
+/* fifth page */
+
  .fifth1{
   
     height: 150vh;
@@ -302,9 +306,6 @@ input[type=submit]:hover{
     padding-top: 80px;
 }
 
- .fifpar{
-     padding-top: 25px;
-    }
     .fifth {
         padding: 10px 50px;
         text-transform: uppercase;
@@ -344,17 +345,8 @@ input[type=submit]:hover{
         padding-left: 700px;
         font-size: 48px;
 
-     } 
-     /* 
      }
-     .sixshape{
-         width: 100px;
-         height: 15vh;
-         background-color:rgb(223, 106, 126);
-         border-radius: 50%;
-         margin-left: 20px;
-     }
-     */
+     /* sixth page */
      .sixth{
         background-color: rgb(184, 174, 174);
         height: 120vh;
@@ -402,13 +394,7 @@ input[type=submit]:hover{
         width: 110%;
         height: 65vh;
     }
-    .siximg > p{
-        width: 100px;
-        height: 15vh;
-        background-color:white;
-        border-radius: 50%;
-
-    }
+    /* seventh */
     .seventhead > h2{
         font-size: 50px;
         font-family: sans-serif;
@@ -459,6 +445,7 @@ input[type=submit]:hover{
         padding-left: 20px;
         padding-top: 20px;
     }
+    /* eight page start */
     
     .eightbaground{
         background-color: rgb(219, 210, 200);
@@ -555,6 +542,7 @@ input[type=submit]:hover{
         margin-top: 100px;
 
     }
+    
 
 
 
