@@ -20,21 +20,20 @@ nav li:hover{
 .shape{
     margin-top: 60px;
 border-radius: 30% 70% 43% 57% / 76% 29% 71% 24%  ;
-background: #f0ec0d; 
+background:#f7a816; 
 width: 100%;
 height: 110vh;
-animation: kiru 1s linear 1;
-animation-delay: 10s;
-
-/* transition: 10s; 
-transform: translateZ(-500px); */
+animation: kirm 3s linear 1;
+animation-delay: .1s;
 }
-@keyframes kiru{
-    0%{  
-        transform: translatez(-500px);
+@keyframes kirm{
+    0%{ 
+        transform: scale(0,0); 
+        
     }
+    
     100%{
-        transform: translate(0);
+        opacity: 1;
     }
 }
     
@@ -44,7 +43,22 @@ transform: translateZ(-500px); */
     border-radius: 50%;
     
    
-}
+    animation: kirme 3s linear 1;
+    animation-delay: .1s;
+    }
+    @keyframes kirme{
+        0%{ 
+
+            transform: scale(0,0); 
+            
+        }
+        30%{
+            transform:rotate(-180deg)
+        }
+        100%{
+            opacity: 1;
+        }
+    }
 .first-para {
     position:absolute;
     display: flexbox;
@@ -54,9 +68,22 @@ transform: translateZ(-500px); */
     border-radius: 20px;
     padding-left: 20px;
     width: 400px;
+    animation: kiru 3s linear 1;
+    animation-delay: .1s;
 
 
-} 
+}
+@keyframes kiru{
+    0%{  
+        transform: translatex(-500px);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
+
+
+ 
 .first-para h1{
     font-size: 60px;
 }
@@ -68,26 +95,59 @@ transform: translateZ(-500px); */
     border-radius: 50% ;
     height: 40vh;
     width: 300px;
-    background-color: rgb(63, 97, 189);
+    background-color: rgb(209, 103, 174);
     margin-left: 900px;
     position: absolute;
+    animation: keke 3s linear 1;
+    animation-delay: .1s;
+
+
 }
+@keyframes keke{
+    0%{  
+        transform: translatex(500px);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
+
 .second{
     display: flex;
     margin-top: 300px;
 }
 .second-1{
-    width: 400px;
-    background-color:rgb(86, 86, 202) ;
+    width: 390px;
+    background-color:rgb(209, 103, 174) ;
     text-align: center;
     border-radius: 20%;
-    margin-left: 40px;
+    margin-left: 60px;
     color:white;
-    
+    animation: kir 2s linear 1;
+    animation-delay: .1s;
+    animation-fill-mode: forwards;
 }
+i {
+    padding-top: 70px;
+}
+@keyframes kir{
+    0%{ 
+        opacity: 0; 
+        
+    }
+    20%{
+        transform: scale(0,0);
+    }
+    
+    100%{
+        opacity: 1;
+    }
+}
+    
+
 .second-1 h5{
     font-size: 26px;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 .second-1 p{
     font-size: 20px;
@@ -99,15 +159,16 @@ transform: translateZ(-500px); */
 }
 .second-2{
     width: 400px;
-    background-color:#f0ec0d ;
+    background-color:#f7a816;
     text-align: center;
     border-radius: 20%;
     margin-left: 40px;
+    color: white;
     
 }
 .second-2 h5{
     font-size: 26px;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 .second-2 p{
     font-size: 20px;
@@ -119,17 +180,17 @@ transform: translateZ(-500px); */
 }
 .second-3{
     width: 450px;
-    background-color:rgb(86, 86, 202) ;
+    background-color:rgb(209, 103, 174) ;
     text-align: center;
     border-radius: 20%;
     margin-left: 40px;
-
+    margin-right: 40px;
     color:white;
     
 }
 .second-3 h5{
     font-size: 26px;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 .second-3 p{
     font-size: 20px;
@@ -142,7 +203,22 @@ transform: translateZ(-500px); */
 .sec-sub{
     display: flex;
     margin-top: 50px;
+    animation: kirumer 2s linear 1;
+    animation-delay: .1s;
+
+/* transition: 10s; 
+transform: translateZ(-500px); */
 }
+@keyframes kirumer{
+    0%{  
+        transform: translatey(500px);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
+
+
 .sec-sub-1{
     font-size: 32px;
     width: 50%;
@@ -151,19 +227,26 @@ transform: translateZ(-500px); */
 .sec-sub-2{
     width: 50%;
     margin-left: 150px;
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 30px;
     margin-right:65px;
     
 }
 .sec-sub-2 button{
-    background-color: rgb(86, 86, 202);
-    padding: 10px 40px;
-    border-radius: 20px;
+    background-color: rgb(209, 103, 174);
+    padding: 20px 50px;
+    border-radius: 50px;
     border-style: none;
     text-transform: uppercase;
     color: white;
 
+}
+.third-shape{
+    margin-top: 60px;
+    border-radius: 30% 70% 43% 57% / 76% 29% 71% 24%  ;
+    background:#f7a816; 
+    width: 100%;
+    height: 110vh;
 }
 .third {
     display: grid;
@@ -180,6 +263,7 @@ transform: translateZ(-500px); */
     padding-left: 30px;
     padding-right: 40px;
     line-height: 30px;
+    background-color: white;
 }
 .third-img2 button{
     border-top-style: none;
@@ -200,6 +284,7 @@ transform: translateZ(-500px); */
     padding-left: 30px;
     padding-right: 40px;
     line-height: 30px;
+    background-color: white;
 }
 .third-img4 button{
     border-top-style: none;
@@ -220,6 +305,7 @@ transform: translateZ(-500px); */
     padding-left: 30px;
     padding-right: 40px;
     line-height: 30px;
+    background-color: white;
 }
 .third-img6 button{
     border-top-style: none;
@@ -256,17 +342,19 @@ transform: translateZ(-500px); */
 }
 .fourth-flex1{
     display: flex;
-    width: 290px;
+    width: 300px;
 }
 .fourth-flex1 h1{
-    font-size: 62px;
-    color: rgb(38, 38, 196);
+    font-size: 68px;
+    color: rgb(209, 103, 174);
+    font-weight: 600px;
     
+   
 }
 .fourth-flex1 h4{
     margin-top: 55px;
     margin-left: 40px;
-    color:rgb(38, 38, 196) ;
+    color:rgb(209, 103, 174) ;
     font-size:25px;
     font-family: sans-serif;
 }
@@ -276,6 +364,7 @@ transform: translateZ(-500px); */
     font-weight: 100;
     line-height: 30px;
     font-style: italic;
+    font-family: 'Open Sans', sans-serif;
 }
 .fourth-flex2{
     display: flex;
@@ -283,14 +372,15 @@ transform: translateZ(-500px); */
     margin-left: 60px;
 }
 .fourth-flex2 h1{
-    font-size: 62px;
-    color: rgb(38, 38, 196);
+    font-size: 68px;
+    color: rgb(209, 103, 174);
+    font-weight: 600px;
     
 }
 .fourth-flex2 h4{
     margin-top: 55px;
     margin-left: 40px;
-    color:rgb(38, 38, 196) ;
+    color:rgb(209, 103, 174) ;
     font-size:25px;
     font-family: sans-serif;
 }
@@ -301,6 +391,7 @@ transform: translateZ(-500px); */
     width: 230px;
     line-height: 30px;
     font-style: italic;
+    font-family: 'Open Sans', sans-serif;
 }
 .fourth-flex3{
     display: flex;
@@ -308,14 +399,15 @@ transform: translateZ(-500px); */
     margin-left: 60px;
 }
 .fourth-flex3 h1{
-    font-size: 62px;
-    color: rgb(38, 38, 196);
+    font-size: 68px;
+    color: rgb(209, 103, 174);
+    font-weight: 600;
     
 }
 .fourth-flex3 h4{
     margin-top: 55px;
     margin-left: 40px;
-    color:rgb(38, 38, 196) ;
+    color:rgb(209, 103, 174) ;
     font-size:25px;
     font-family: sans-serif;
 }
@@ -326,11 +418,12 @@ transform: translateZ(-500px); */
     width: 230px;
     line-height: 30px;
     font-style: italic;
+    font-family: 'Open Sans', sans-serif;
 }
 .shape-fifth{
     margin-top: 100px;
 border-radius: 100% 70% 43% 57% / 86% 59% 71% 64%  ;
-background: #f0ec0d; 
+background:#f7a816; 
 width: 50%;
 height: 120vh; 
 }
@@ -338,7 +431,7 @@ height: 120vh;
     border-radius: 30% 70% 43% 57% / 76% 29% 71% 24%  ;
     height: 100vh;
     width: 400px;
-    background-color: rgb(63, 97, 189);
+    background-color: rgb(209, 103, 174);
     margin-left: 900px;
     position: absolute;
     z-index: -1;
@@ -371,17 +464,17 @@ height: 120vh;
 }
 .fifth-para button{
     text-transform: uppercase;
-    background-color: rgb(62, 62, 201);
-    padding: 10px 30px;
+    background-color: rgb(209, 103, 174);
+    padding: 20px 50px;
     color: white;
-    border-radius: 20px;
+    border-radius: 50px;
     border-style: none;
 }
 .shapes {
     border-radius: 50% 60% 20% 70%/100% 59%;
     height: 30vh;
     width: 300px;
-    background-color: #f0ec0d;
+    background-color: #f7a816;
     margin-left: 500px;
     margin-top: 200px;
     z-index: -1;
@@ -390,15 +483,15 @@ height: 120vh;
     margin-left: 300px;
     margin-top: 80px;
     position: absolute;
-    font-size: 30px;
+    font-size: 60px;
     font-family: sans-serif;
 }
 .sixth h5{
     position: absolute;
-    margin-top: 120px;
+    margin-top: 150px;
     margin-left: 700px;
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 500;
     width: 350px;
 }
 .sixth-flex{
@@ -407,24 +500,25 @@ height: 120vh;
 }
 .sixth-flex1{
     font-size: 18px;
-    font-weight: 50px;
     width: 400px;
     margin-left: 150px;
     line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
 }
 .sixth-flex2{
     font-size: 18px;
-    font-weight: 50px;
+   
     width: 380px;
     margin-left: 150px;
     margin-top: 20px;
     line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
 }
 .shapes1 {
     border-radius: 20% 80% 40% 50%/30% 40% 70% 80%;
     height: 23vh;
     width: 200px;
-    background-color: rgb(73, 119, 179);
+    background-color: rgb(209, 103, 174);
     margin-left: 1060px;
     margin-top: 50px;
     z-index: -1;
@@ -433,7 +527,7 @@ height: 120vh;
     margin-top: 60px;
     border-radius: 70% 70% 43% 57% / 96% 29% 71% 24%  ;
     /* border: 10px 10px 10px 10px; */
-    background: #307bad; 
+    background:rgb(209, 103, 174); 
     width: 55%;
     height: 110vh; 
     margin-left: 90px;
@@ -467,9 +561,9 @@ height: 120vh;
     margin-left: 20px;
 }
 .seventh-para button{
-    background-color: rgb(86, 86, 202);
-    padding: 10px 40px;
-    border-radius: 20px;
+    background-color: rgb(209, 103, 174);
+    padding: 20px 45px;
+    border-radius: 50px;
     border-style: none;
     text-transform: uppercase;
     color: white;
@@ -482,7 +576,7 @@ height: 120vh;
     margin-top: 260px;
     border-radius: 30% 70% 43% 57% / 76% 29% 71% 24%  ;
     /* border: 10px 10px 10px 10px; */
-    background: #f0ec0d; 
+    background: #f7a816; 
     width: 100%;
     height: 110vh; 
 }
@@ -503,7 +597,7 @@ height: 120vh;
     border-radius: 50% ;
     height: 40vh;
     width: 300px;
-    background-color: rgb(63, 97, 189);
+    background-color: rgb(209, 103, 174);
     margin-left: 900px;
     position: absolute;
 }
@@ -535,16 +629,17 @@ input[type=text]{
 }
 .forms button{
     width: 560px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-radius: 20px;
-    background-color:  rgb(63, 97, 189) ;
+    background-color:  rgb(209, 103, 174) ;
     border-style: none;
     color: white;
 }
 .but1:hover{
-    background-color: #f0ec0d;
+    background-color:#f7a816;
 }
+
 
 
 
