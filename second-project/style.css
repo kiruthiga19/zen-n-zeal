@@ -21,10 +21,11 @@ nav li:hover{
     margin-top: 60px;
 border-radius: 30% 70% 43% 57% / 76% 29% 71% 24%  ;
 background:#f7a816; 
-width: 100%;
-height: 110vh;
-animation: kirm 3s linear 1;
+width: 86%;
+height: 80vh;
+animation: kirm 2s linear 1;
 animation-delay: .1s;
+margin-left: 40px;
 }
 @keyframes kirm{
     0%{ 
@@ -38,12 +39,12 @@ animation-delay: .1s;
 }
     
 .shaimg img{
-    height: 90vh;
+    height: 70vh;
     margin-left: 450px;
     border-radius: 50%;
     
    
-    animation: kirme 3s linear 1;
+    animation: kirme 2s linear 1;
     animation-delay: .1s;
     }
     @keyframes kirme{
@@ -64,10 +65,10 @@ animation-delay: .1s;
     display: flexbox;
     margin-top: 280px;
     background-color: white;
-    margin-left: 250px;
+    margin-left: 50px;
     border-radius: 20px;
     padding-left: 20px;
-    width: 400px;
+    width: 500px;
     animation: kiru 3s linear 1;
     animation-delay: .1s;
 
@@ -75,7 +76,7 @@ animation-delay: .1s;
 }
 @keyframes kiru{
     0%{  
-        transform: translatex(-500px);
+        transform: translatex(-400px);
     }
     100%{
         transform: translate(0);
@@ -86,18 +87,29 @@ animation-delay: .1s;
  
 .first-para h1{
     font-size: 60px;
+    font-family: sans-serif;
+    padding-left: 30px;
+    padding-right: 80px;
 }
 .first-para h5{
     padding-top: 20px;
     font-size: 20px;
+    font-family: sans-serif;
+    padding-left: 30px;
+    padding-right: 90px;
+}
+.first-para p{
+    padding-left: 30px;
+    padding-right: 90px;
 }
 .first-shape{
     border-radius: 50% ;
-    height: 40vh;
-    width: 300px;
+    height: 30vh;
+    width: 200px;
     background-color: rgb(209, 103, 174);
     margin-left: 900px;
-    position: absolute;
+    position: relative;
+    bottom: 70px;
     animation: keke 3s linear 1;
     animation-delay: .1s;
 
@@ -115,9 +127,10 @@ animation-delay: .1s;
 .second{
     display: flex;
     margin-top: 300px;
+    font-family: sans-serif;
 }
 .second-1{
-    width: 390px;
+    width: 350px;
     background-color:rgb(209, 103, 174) ;
     text-align: center;
     border-radius: 20%;
@@ -126,6 +139,8 @@ animation-delay: .1s;
     animation: kir 2s linear 1;
     animation-delay: .1s;
     animation-fill-mode: forwards;
+    margin-left: 110px;
+    font-family: sans-serif;
 }
 i {
     padding-top: 70px;
@@ -148,6 +163,7 @@ i {
 .second-1 h5{
     font-size: 26px;
     margin-top: 50px;
+    font-family: sans-serif;
 }
 .second-1 p{
     font-size: 20px;
@@ -158,11 +174,11 @@ i {
     padding-right: 10%;
 }
 .second-2{
-    width: 400px;
+    width: 350px;
     background-color:#f7a816;
     text-align: center;
     border-radius: 20%;
-    margin-left: 40px;
+    margin-left: 20px;
     color: white;
     
 }
@@ -179,11 +195,11 @@ i {
     padding-right: 10%;
 }
 .second-3{
-    width: 450px;
+    width: 350px;
     background-color:rgb(209, 103, 174) ;
     text-align: center;
     border-radius: 20%;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-right: 40px;
     color:white;
     
@@ -223,6 +239,7 @@ transform: translateZ(-500px); */
     font-size: 32px;
     width: 50%;
     margin-left: 80px;
+    font-family: sans-serif;
 }
 .sec-sub-2{
     width: 50%;
@@ -230,6 +247,8 @@ transform: translateZ(-500px); */
     font-size: 18px;
     margin-top: 30px;
     margin-right:65px;
+    font-family: sans-serif;
+    font-weight: 100px;
     
 }
 .sec-sub-2 button{
@@ -251,7 +270,7 @@ transform: translateZ(-500px); */
 .third {
     display: grid;
     grid-template-columns: 300px 300px 300px;
-    margin-top: 250px;
+    margin-top: 260px;
     margin-left: 250px;
    
 }
@@ -264,6 +283,7 @@ transform: translateZ(-500px); */
     padding-right: 40px;
     line-height: 30px;
     background-color: white;
+    font-family: sans-serif;
 }
 .third-img2 button{
     border-top-style: none;
@@ -275,6 +295,7 @@ transform: translateZ(-500px); */
 }
 .third-img2 h3{
     font-size: 30px;
+    padding-top: 30px;
 }
 .third-img3 img{
     width: 300px;
@@ -285,6 +306,10 @@ transform: translateZ(-500px); */
     padding-right: 40px;
     line-height: 30px;
     background-color: white;
+    font-family: sans-serif;
+    position: relative;
+    bottom:4px;
+    
 }
 .third-img4 button{
     border-top-style: none;
@@ -296,16 +321,22 @@ transform: translateZ(-500px); */
 }
 .third-img4 h3{
     font-size: 30px;
+    padding-top: 30px;
 }
 .third-img5 img{
     width: 300px;
     height: 50vh;
+    position: relative;
+    bottom:5px;
 }
 .third-img6{
     padding-left: 30px;
     padding-right: 40px;
     line-height: 30px;
     background-color: white;
+    font-family: sans-serif;
+    position: relative;
+    bottom:4px;
 }
 .third-img6 button{
     border-top-style: none;
@@ -317,6 +348,7 @@ transform: translateZ(-500px); */
 }
 .third-img6 h3{
     font-size: 30px;
+    padding-top: 30px;
 }
 .fourth h2{
     text-align: center;
@@ -334,7 +366,7 @@ transform: translateZ(-500px); */
     height: 5px;
     width: 100px;
     background-color: black;
-    margin-left: 600px;
+    margin-left: 60px;
 }
 .fourth-flex{
     display: flex;
@@ -450,17 +482,20 @@ height: 120vh;
     margin-left: 250px;
     border-radius: 20px;
     padding-left: 20px;
-    width: 400px;
+    width: 550px;
     height: 70vh;
 
 
 } 
 .fifth-para h1{
     font-size: 60px;
+    font-family: sans-serif;
 }
 .fifth-para h5{
     padding-top: 20px;
     font-size: 20px;
+    text-transform: uppercase;
+    font-family: sans-serif;
 }
 .fifth-para button{
     text-transform: uppercase;
@@ -554,11 +589,13 @@ height: 120vh;
 .seventh-para h1{
     font-size: 60px;
     margin-left: 20px;
+    font-family: sans-serif;
 }
 .seventh-para h5{
     padding-top: 20px;
     font-size: 20px;
     margin-left: 20px;
+    font-family: sans-serif;
 }
 .seventh-para button{
     background-color: rgb(209, 103, 174);
@@ -595,18 +632,19 @@ height: 120vh;
 }
 .eight-shape1{
     border-radius: 50% ;
-    height: 40vh;
-    width: 300px;
+    height: 30vh;
+    width: 200px;
     background-color: rgb(209, 103, 174);
     margin-left: 900px;
     position: absolute;
 }
 .eight-para {
    
-    width: 590px;
+    width: 500px;
     border-radius: 5px;
     background-color:white;
     border-style: none;
+    height: 470px;
     
     
 }
@@ -615,9 +653,9 @@ height: 120vh;
 
 }
 input[type=text]{
-    width: 560px;
-    padding-top: 9px;
-    padding-bottom: 9px;
+    width: 450px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 10px;
     border-style: none;
     border-radius: 9px;
@@ -628,16 +666,24 @@ input[type=text]{
    line-height: 30px;
 }
 .forms button{
-    width: 560px;
+    width: 450px;
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 20px;
     background-color:  rgb(209, 103, 174) ;
     border-style: none;
     color: white;
+    margin-top: 30px;
 }
 .but1:hover{
     background-color:#f7a816;
+}
+.lable1{
+    font-size: 17px;
+    margin-top: 40px;
+    padding-top: 40px;
+    font-family: sans-serif;
+    font-weight: 100;
 }
 
 
